@@ -34,7 +34,11 @@ Time domain fluorescence spectroscopy uses a continuously modulated excitation s
 
 $$ \phi = arctan(2 \times \pi \times f \times \tau) $$
 
-where $\phi$ is the phase shift, $f$ is the modulation frequency, and $\tau$ is the fluorescence lifetime.
+where $\phi$ is the phase shift, $f$ is the modulation frequency, and $\tau$ is the fluorescence lifetime. The change in relative amplitude (compared to steady state fluorescence) is given by:
+
+$$ m = \frac{1}{\sqrt{1+ (2 \times \pi \times f)^2 \times \tau^2}} $$
+
+The current version of the code does not support dynamic amplitude modulation. I might get around to adding it in a few weeks. 
 
 ### Short lifetime demonstration
 If the lifetime is sufficiently short compared to the wavelength of the excitation source, the phase shift will appear to be 0.
