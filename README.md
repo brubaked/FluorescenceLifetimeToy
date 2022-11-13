@@ -29,7 +29,11 @@ If the lifetime is long enough compared to the off period of the excitation sour
 ## Frequency domain fluorescence
 ![Graph of frequency domain fluorescence](/Images/FrequencyDomain.png)
 
-Time domain fluorescence spectroscopy uses a continuously modulated excitation source. The intensity of the fluorophore matches the frequency of the excitation source, but the phase shift between the two varies depending on the lifetime of the fluorophore. A longer lifetime results in a larger phase shift. 
+Time domain fluorescence spectroscopy uses a continuously modulated excitation source. The intensity of the fluorophore matches the frequency of the excitation source, but the phase shift between the two varies depending on the lifetime of the fluorophore. A longer lifetime results in a larger phase shift. The phase shift is given by the following function:
+
+$$ \phi = arctan(2 \times \pi \times f \times \tau) $$
+
+where $\phi$ is the phase shift, $f$ is the modulation frequency, and $\tau$ is the fluorescence lifetime.
 
 ### Short lifetime demonstration
 If the lifetime is sufficiently short compared to the wavelength of the excitation source, the phase shift will appear to be 0.
