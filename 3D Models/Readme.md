@@ -1,0 +1,2 @@
+## Print description
+Parts were printed on a Prusa Mini+. The main box is printed entirely out of Hatchbox neon green PLA filament. The lower layers of the top part is printed out of Hatchbox neon green PLA filament and the upper layers are printed with Hatchbox glow in the dark filament. White or clear would likely work as well. The material change was done using the "color change" feature of PrusaSlicer.
