@@ -1,5 +1,6 @@
 # FluorescenceLifetimeToy
-A little toy to demonstrate fluorescence lifetime in time domain and frequency domain. Supports time and frequency domain fluorescence spectroscopy modes.
+A little toy to demonstrate fluorescence lifetime in time domain and frequency domain. Supports time and frequency domain fluorescence lifetime spectroscopy modes. Compared to measuring the steady state fluorescence intensity, fluorescence lifetime spectroscopy is less sensitive to ambient light and changes in the optical path. Fluorphores with overlapping emmission spectra can also be differentiated from eachother if they have sufficiently dissimilar fluorescent lifetimes.  
+
 ![Image of the fluorescence lifetime demonstrator](/Images/FluorescenceLifetimeToy.png)
 
 ## Time domain fluorescence
