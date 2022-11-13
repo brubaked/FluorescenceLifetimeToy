@@ -1,2 +1,42 @@
 # FluorescenceLifetimeToy
-A little toy to demonstrate fluorescence lifetime in time domain and frequency domain. 
+A little toy to demonstrate fluorescence lifetime in time domain and frequency domain. Supports time and frequency domain fluorescence spectroscopy modes.
+![Image of the fluorescence lifetime demonstrator](/Images/FluorescenceLifetimeToy.png)
+
+## Time domain fluorescence
+![Graph of time domain fluorescence](/Images/TimeDomain.png)
+
+Time domain fluorescence spectroscopy uses a pulsed excitation source to excite a fluorophore then allow it to decay once the excitation source is turned off. The fluorescent lifetime can be measured directly from the decay profile by fitting the following function:
+
+$$ I(t) = N_0 \times e^{(-t/\tau)} $$
+
+where $N_0$ is the intensity at $time = 0$, and $\tau$ is the fluorescence lifetime.
+
+### Short lifetime demonstration
+If the lifetime is sufficiently short compared to the pulse width, the excitation source and the fluorphore will appear to increase in intensity at the same time.
+
+![Short lifetime demonstration](/Images/TimeDomainShortLifetime.gif)
+
+### Medium lifetime demonstration
+As the lifetime increases, the exponential increase in intensity after the light turns on and the exponential decay in intensity become visible. 
+
+![Medium lifetime demonstration](/Images/TimeDomainMediumLifetime.gif)
+
+### Long lifetime demonstration
+If the lifetime is long enough compared to the off period of the excitation source, the fluorophore will not fully decay before the excitation source turns back on.
+
+![Long lifetime demonstration](/Images/TimeDomainLongLifetime.gif)
+
+## Frequency domain fluorescence
+![Graph of frequency domain fluorescence](/Images/FrequencyDomain.png)
+
+Time domain fluorescence spectroscopy uses a continuously modulated excitation source. The intensity of the fluorophore matches the frequency of the excitation source, but the phase shift between the two varies depending on the lifetime of the fluorophore. A longer lifetime results in a larger phase shift. 
+
+### Short lifetime demonstration
+If the lifetime is sufficiently short compared to the wavelength of the excitation source, the phase shift will appear to be 0.
+
+![Short lifetime demonstration](/Images/FrequencyDomainShortLifetime.gif)
+
+### Medium lifetime demonstration
+As the lifetime increases, the phase shift between the excitation source and the fluorophore become visible. 
+
+![Medium lifetime demonstration](/Images/FrequencyDomainMediumLifetime.gif)
