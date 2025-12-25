@@ -38,7 +38,7 @@ where $\phi$ is the phase shift, $f$ is the modulation frequency, and $\tau$ is 
 
 $$ m = \frac{1}{\sqrt{1+ (2 \times \pi \times f)^2 \times \tau^2}} $$
 
-The current version of the code does not support dynamic amplitude modulation. I might get around to adding it in a few weeks. 
+The current version of the code does not support dynamic amplitude modulation. I might get around to adding it at some time. 
 
 ### Short lifetime demonstration
 If the lifetime is sufficiently short compared to the wavelength of the excitation source, the phase shift will appear to be 0.
